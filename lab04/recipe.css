@@ -1,0 +1,51 @@
+body {
+	background-color:green;
+}
+
+p{
+	font-size:16px;
+	text-transform: lowercase;
+}
+
+h1{
+	color:#2e4545;
+}
+
+h2{
+	margin-bottom:15px;
+}
+
+li{
+	font-family:"Arial", Helvectica, sans-serif;
+}
+
+.recipe-header {
+	padding: 94px 10px;
+    background: url(./images/chocolate.jpg) no-repeat;
+    background-size: cover;
+    height: 50%;
+    width: 80%;
+}
+
+.container {
+	width: 80%;
+	margin: 0px auto;
+	background-color: blanchedalmond;
+	padding: 0px 10px;
+}
+
+.info-section {
+	display: flex;
+}
+
+.page-link:hover {
+	color : red;
+}
+
+.page-link:link {
+	color: rgb(70, 84, 214);
+}
+
+.page-link a:visited {
+	color: gray;
+}
