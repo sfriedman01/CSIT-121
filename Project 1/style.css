@@ -1,0 +1,44 @@
+body {
+    background-color: hotpink;
+    
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 80px;
+    background-color: white;
+    margin: 0;
+}
+nav{
+    background-color:honeydew;
+    padding: 20px;
+    text-align: center;
+}
+nav a{
+    margin-right: 25px;
+    font-size: 25px;
+}
+p {
+    font-size:  20px;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+h2 {
+    color: whitesmoke;
+    text-align: center;
+    
+}
+
+h3{
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+}
+img{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: auto;
+    }
