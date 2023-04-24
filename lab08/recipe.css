@@ -1,0 +1,137 @@
+body {
+	background-color: green;
+}
+
+p {
+	font-size: 16px;
+	text-transform: lowercase;
+}
+
+h1 {
+	color: #2e4545;
+}
+
+h2 {
+	margin-bottom: 15px;
+}
+
+li {
+	font-family: "Arial", Helvectica, sans-serif;
+}
+
+.recipe-header {
+	padding: 94px 0px;
+	background: url(./images/chocolate.jpg) no-repeat;
+	background-size: cover;
+	height: 50%;
+	width: 80%;
+}
+
+.container {
+	width: 80%;
+	margin: 0px auto;
+	background-color: blanchedalmond;
+	padding: 0px 10px;
+}
+
+.info-section {
+	display: flex;
+}
+
+.page-link:hover {
+	color: red;
+}
+
+.page-link:link {
+	color: rgb(70, 84, 214);
+}
+
+.page-link a:visited {
+	color: gray;
+}
+
+.lower-img {
+	text-align: center;
+}
+.lower-img img {
+	max-width: 60%;
+}
+/* Table CSS */
+table{ 
+	border-spacing: 0;
+	border-collapse: collapse;
+	border: 1px solid black;
+	background-color: white;
+}
+tr{
+	border: 1px solid black;
+}
+tr.table-hl { 
+	height: 10px;
+	background-color:black;
+
+}
+td.right{ 
+	text-align: end;
+}
+td.left{
+	text-align: left;
+}
+
+td.leftpad{
+	padding-left: 15px;
+}
+
+form{
+	display:flex;
+	flex-direction: column;
+	max-width: 250px;
+}
+
+form input{
+	margin-bottom: 12px;
+} 
+form select{
+	margin-bottom: 12px;
+}
+
+input.submit-button{
+background-color: green;
+color: white;
+}
+
+
+@media (max-width: 768px) {
+
+	/* your styles for smartphones go here */
+	.info-section {
+		display: block;
+		text-align: center;
+	}
+
+	.info-section ul {
+		margin: 0px;
+		padding: 0px;
+		list-style-type: none;
+	}
+
+	.info-section ol {
+		margin: 0px;
+		padding: 0px;
+		list-style-type: none;
+	}
+
+	.info-section div {
+		margin-bottom: 10px;
+	}
+
+	.lower-img {
+		width: 100%;
+		text-align: center;
+	}
+
+	.recipe-header {
+		width: 100%;
+		text-align: center;
+	}
+}
