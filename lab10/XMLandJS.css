@@ -1,0 +1,40 @@
+
+body {
+    background-color: #f6dfee;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header {
+    text-align: center;
+    background-color: #FFB7FF;
+    color: #826AED;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 15px;
+}
+
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: #826AED;
+}
+
+h3 {
+    color: #B30089;
+}
+
+h3:hover {
+    color: #FFB7FF;
+    cursor: pointer;
+}
+
+.questions p {
+    font-size: medium;
+    padding-left: 30px;
+    color: rgb(72, 68, 68);
+}
